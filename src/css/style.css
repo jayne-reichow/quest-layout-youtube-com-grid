@@ -1,0 +1,143 @@
+.container {
+    background-color: #F7F7F7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 900px;
+    height: 415px;
+    display: grid;
+    grid-template-columns: 543px 101px 169px;
+    grid-template-rows: repeat(4, auto);
+    grid-row-gap: 15px;
+    grid-column-gap: 10px;
+    padding: 33px 0 0 35px;
+}
+
+.video-destaque {
+    width: 543px;
+    height: 217px;
+    background-image: url(../images/destaque.png);
+    background-size: cover;
+    grid-column: 1 / 1;
+    grid-row: 1 / 4;
+}
+
+.texto-destaque{
+    max-width: 543px;
+    grid-column: 1 / 1;
+    grid-row: 4 / 4;
+    padding: 5px;
+}
+
+.texto-destaque h1{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.texto-destaque p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.texto-destaque p:last-child{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.imagem-propaganda{
+    background-image: url(../images/propaganda.png);
+    width: 270px;
+    height: 56px;
+    background-size: cover;
+    grid-column: 2 / 4;
+    grid-row: 1/ 1;
+}
+
+.imagem-propaganda p{
+    justify-content: center;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.video-01{
+    background-image: url(../images/video.png);
+    width: 101px;
+    height: 71px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+}
+
+.texto-01{
+    width: 159px;
+    height: 71px;
+}
+
+.texto-01 p:first-child{
+    margin: 0;
+    padding: 0px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.texto-01 p:last-child{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    font-size: 11px;
+}
+
+.video-02{
+    background-image: url(../images/video.png);
+    width: 101px;
+    height: 71px;
+}
+
+.texto-02{
+    width: 159px;
+    height: 71px;
+}
+
+.texto-02 p:first-child{
+    margin: 0;
+    padding: 0px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.texto-02 p:last-child{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    font-size: 11px;
+}
+
+.video-03{
+    background-image: url(../images/video.png);
+    width: 101px;
+    height: 71px;
+}
+
+.texto-03{
+    width: 159px;
+    height: 71px;
+}
+
+.texto-03 p:first-child{
+    margin: 0;
+    padding: 0px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.texto-03 p:last-child{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    font-size: 11px;
+}
